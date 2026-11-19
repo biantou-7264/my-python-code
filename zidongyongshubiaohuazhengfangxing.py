@@ -1,0 +1,13 @@
+import pyautogui as pg
+pg.sleep(3)
+pg.mouseDown()
+x,y=pg.position()
+pg.moveTo(x+0,y+200,0.2)
+x,y=pg.position()
+pg.moveTo(x+200,y+0,0.2)
+x,y=pg.position()
+pg.moveTo(x+0,y+-200,0.2)
+x,y=pg.position()
+pg.moveTo(x+-200,y+0,0.2)
+pg.sleep(1)
+pg.mouseUp()
